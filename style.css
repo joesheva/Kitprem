@@ -1,0 +1,1207 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700');
+@import url("https://fonts.googleapis.com/css?family=Metal+Mania");
+
+@font-face {
+    font-family: "Booter - Zero Zero";
+    src: url("Fonts/Booter - Zero Zero.woff") format("woff"),
+         url("Fonts/Booter - Zero Zero.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+#smallFrame {
+   margin-left: 12px;
+   margin-top: 168px;
+    max-height: 392px;
+    width: 544px;
+    top:2px;
+    border-radius: 23px;
+    background-color: #eeeef6e8;
+    cursor: pointer;
+    border-color:#2D9CDB;
+    font-size: 11px;
+  }
+
+  #hide {
+    padding: 0.5em;
+    border: none;
+    float: left;
+    border-radius: 22px;
+    color: white;
+    font-style: italic;
+  }
+
+ .btn-group {
+    margin-top: 1px;
+    display: grid;
+    height: 200px;
+    align-items: center;
+    grid-template-columns: auto auto auto;
+    column-gap: 25px ;
+    row-gap: 12px;
+    width: 632px;
+    position: absolute;
+    border-radius: 22px;
+    padding: 11px 21px;
+    text-align: center;
+   border: none;
+  }
+
+  #show {
+    display: block;
+    color: white;
+    background-color: #2D9CDB;
+    border-radius: 22px;
+    text-align: center;
+    width: 172px;
+    padding: 12px;
+  }
+
+  .cart-total-price1 {
+    color: white;
+  }
+     
+   #subject {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-content: center;
+    column-gap: 22px;
+    row-gap: 8px;
+    cursor: pointer;
+    border: #000b00;
+    outline-style: none;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+.arsenal-badge {
+    margin-right: 12px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(222, 13, 13);
+}
+
+.villa-badge{
+    margin-right: 12px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(107, 10, 126);
+}
+
+.brentford-badge{
+    margin-right: 12px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(250, 14, 14);
+}
+
+.born-badge{
+    margin-right: 12px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(250, 14, 14);
+}
+
+.bright-badge{
+    margin-right: 12px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(26, 17, 200);
+}
+
+.burn-badge{
+    margin-right: 12px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(65, 6, 92);
+}
+
+.chelsea-badge{
+    margin-right: 12px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(26, 17, 200);
+}
+
+.palace-badge{
+    margin-right: 12px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(208, 42, 30);
+}
+
+.everton-badge{
+    margin-right: 12px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(26, 17, 200);
+}
+
+.fulham-badge{
+    margin-right: 12px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(2, 1, 16);
+}
+
+.liverpool-badge{
+    margin-right: 12px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(241, 14, 14);
+}
+
+.luton-badge{
+    margin-right: 12px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(250, 138, 11);
+}
+
+.city-badge{
+    margin-right: 12px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: skyblue;
+}
+
+.united-badge{
+    margin-right: 12px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(236, 26, 26);
+}
+
+.newcastle-badge{
+    margin-right: 12px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(4, 4, 4);
+}
+
+.forest-badge{
+    margin-right: 12px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(247, 12, 12);
+}
+
+.sheff-badge{
+    margin-right: 12px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(247, 12, 12);
+}
+
+.spurs-badge{
+    margin-right: 12px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(245, 243, 243);
+}
+
+.hammers-badge{
+    margin-right: 12px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     background-color: maroon;
+}
+
+.wolves-badge{
+    margin-right: 12px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(242, 210, 92);
+}
+
+nav {
+    margin: 0 ;
+    padding: 0 0 0 0;  
+    color: red;
+    font-size: 16px;
+}
+
+.dropdown {
+    width: 550px;
+    border-radius: 22px;
+    padding: 32px;
+}
+
+ul li {
+    display: inline-block;
+    margin: 0 auto;
+    border-left: 2px solid #2D9CDB;
+    display: block;
+    padding: 0 30px;
+    position: relative;
+    color: #0f0e0e;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+  
+ul li ul { 
+    opacity: 0;
+    position: absolute;
+    padding-left: 0;
+    left: 0;
+    color: red;
+    background-color: #ecf4f6;
+}
+  
+ul li:hover > ul,
+ul li ul:hover {
+    visibility: visible;
+    opacity: 1;
+    display:block;
+    min-width: 250px;
+    text-align: left;
+    padding-top: 20px;
+    box-shadow: 0px 3px 5px -1px #ccc;
+}
+
+  body {
+    margin: 0;
+    background-color: #ecf4f6;
+}
+
+.kit-row  {
+    background-color: #ecf4f6;
+    margin-top: 1px;
+}
+
+.main-header {
+    background-color: #ecf4f6;
+}
+
+.newbutton {
+    height: 54px;
+    width: 54px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 12px;
+    background-color: #86b9d6;
+    color: rgb(9, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+   
+.kitprem {
+    filter: drop-shadow(0 0 0.75rem rgb(61, 59, 59));
+}
+
+.anewkit {
+    width: 100%;
+}
+
+.manublue {
+    width: 100%;
+}
+
+.club-options {
+    width: 100%;
+    background-color: #ecf4f6;
+}
+
+.media-element1 {
+    display: grid;
+    grid-template-rows: min-content;
+    gap: var(--_spacer);
+    padding: var(--_spacer);
+    background: var(--surface-2);
+    border-radius: var(--radius-2);
+    box-shadow: var(--shadow-2);
+    width: 100%;
+}
+  
+.media-element1 > img {
+    border-radius: 22px;
+    inline-size: 100%;
+    padding: 4px;
+    aspect-ratio: 20 / 20;
+    object-fit: cover;
+    width: 100%;
+}
+
+.logos {
+    padding: 2px;
+    height:50px;
+}
+
+.logos:hover {
+    cursor: pointer;
+}
+
+h1{
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Raleway;
+    color: #0f0e0e;  
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+}
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+    
+}
+
+.nav a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
+
+.main-nav {
+    margin-top: -222px;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(247, 242, 242, 0.3)
+}
+
+.main-nav li {
+    padding: 0 5%;
+}
+
+
+.main-header {
+    background-color: #ecf4f6;
+    background-size: cover;
+}
+
+.content-section {
+    margin: 1em;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.section-header {
+    font-family: "Metal Mania";
+    font-weight: normal;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.main-footer {
+    background-color: #ecf4f6;
+    color: rgb(211, 10, 10);
+    padding: .25em 0;
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;  
+}
+
+.footer-nav li {
+    padding: 0 .5em; 
+}
+
+.footer-nav img {
+    width: 76px;
+    height: 60px;
+    padding: none;
+}
+
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em .67em;
+    cursor: pointer;
+}
+
+.btn-header {
+    margin: .5em 15% 2em 15%;
+    color: white;
+    border: 2px solid #2D9CDB;
+    background-color: rgba(244, 238, 238, 0.1);
+    border-radius: 0;
+    font-size: 1.5em;
+    font-weight: lighter;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.btn-header:hover {
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.btn-play {
+    display: block;
+    margin: 0 auto;
+    color: #d1dae0;
+    font-size: 4em;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    padding: 0;
+    text-align: center;
+}
+
+.shop-item {
+    display: inline-block;
+}
+
+.btn-primary {
+    color: white;
+    background-color: #2D9CDB;
+    border: none;
+    border-radius: 22px;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #2D9CDB;
+}
+
+p {
+    text-align: center;
+}
+
+.shop-item {
+    margin: 10px;
+    padding-left: 22px;
+}
+
+#arsenal-home:hover {
+    content: url(images/arsenalreverse.avif);
+    height: 350px;
+    width: 350px;
+}
+
+#arsenal-gk:hover {
+    content: url(images/arsenalgkreverse.avif);
+    height: 350px;
+    width: 350px;
+}
+
+#arsenal-away:hover {
+    content: url(images/arsenal-training-jersey-white_ss4_p-13354992+pv-3+u-igmhzaxp26rdsw5sgrv0+v-19b45e60c02c4a6989171877819b347a.jpg.webp);
+    height: 350px;
+    width: 350px;
+}
+
+#arsenal-third:hover {
+    content: url(images/arsenal-third-shirt-2022-23_ss4_p-13311537+pv-2+u-2qfj5k21jb1w2qgrvsmm+v-8a1a906f64a341bd9dea427e7286cc7b.jpg.webp);
+    height: 350px;
+    width: 350px;
+}
+
+#arsenal-jacket:hover {
+    content: url(images/arsenal-reversible-anthem-jacket-sky-kids_ss4_p-13355057+pv-3+u-5rb19h3f4au3df0mjxl7+v-e860d009d7d64cfcac90422a04a44425.jpg.avif);
+    height: 350px;
+    width: 350px;
+}
+
+#arsenal-pre:hover {
+    content: url(images/arsenal-adidas-pre-match-top-red_ss4_p-13383745+pv-2+u-958axz8o9rvdpvhkkqkq+v-8b9f39bfb4564c0ca0c7c236b1296cdf.jpg.avif);
+    width: 350px;
+}
+
+#arsenal-hoodie:hover {
+    content: url(images/arsenal-hoodie-red-mens_ss4_p-12064716+pv-2+u-1ffc1s429mib0w7pi41a+v-f3733991171d4824bb31ade9940d0303.jpg.avif);
+    height: 350px;
+    width: 350px;
+}
+
+#arsenal-icon:hover {
+    content: url(images/arsenal-icon-jersey-red_ss4_p-13354969+pv-2+u-13bs366bu3ifo8t48dxz+v-478ecd2355974ac08c9add5e80ccc2d0.jpg.avif);
+    height: 350px;
+    width: 350px;
+}
+
+#villa-home:hover {
+    content: url(images/aston-villa-home-shirt-2022-23_ss4_p-13324802+pv-2+u-hv2gw8cq3ijdzmbw8fic+v-89632e711f3b46b68c7abc46a9ebf85b.jpg.avif);
+    height: 350px;
+    width: 350px;
+}
+
+#villa-away:hover {
+    content: url(images/aston-villa-away-shirt-2022-23_ss4_p-13324816+pv-2+u-nmsqsuph0vtp08izayp2+v-5d47c50831244e6d8dea42223439a1a1.jpg.webp);
+    height: 350px;
+    width: 350px;
+}
+
+#villa-1996:hover {
+    content: url(images/aston-villa-1996-home-shirt_ss4_p-12015011+pv-2+u-v2s367ibawde0vrdohoo+v-edbd8dc9aeaf4cccb7e50a9745c53e85.jpg.avif);
+    height: 350px;
+    width: 350px;
+}
+
+#villa-jumper:hover {
+    content: url(images/aston-villa-players-training-sweatshirt-blue_ss4_p-13325190+pv-2+u-1gq591v1kepdvb40g101+v-ea1df0033b33439cae17394860a2a738.jpg.webp);
+    height: 350px;
+    width: 350px;
+}
+
+#villa-hoodie:hover {
+    content: url(images/aston-villa-iconic-overhead-hoodie-navy-mens_ss4_p-13302994+pv-2+u-1f9ydtz5085vbaucrd1f+v-4e1a1fdc40a1408992c87ec09ac1b3a9.jpg.avif);
+    height:350px;
+    width: 350px;
+}
+
+#brentford-home:hover {
+    content: url(images/s-home-shirt_ss12_p-101230248+pv-2+u-zhhdkla8lcqent0ihneh+v-mnqpkvyotcd71haxdutm.jpg.avif);
+    height:350px;
+    width: 350px;
+}
+
+#brentford-away:hover {
+    content: url(images/24-brentford-junior-second-shirt_ss12_p-101230247+pv-2+u-gqcdqsbpe7jhv83cxa1v+v-tbucue2hpqg8ery8zhr2.jpg.avif);
+    height:350px;
+    width: 350px;
+}
+
+#brentford-GK:hover {
+    content: url(images/23-brentford-adult-alternative-gk_ss12_p-101230252+pv-2+u-ezlqkwlb5rxaotryzzk3+v-11j6su8zdqklpnxk143a.jpg.avif);
+    height:350px;
+    width: 350px;
+}
+
+#born-home:hover {
+    content: url(images/HOME22MNSHIRT-2.jpg);
+    height:350px;
+    width: 350px;
+}
+
+#born-away:hover {
+    content: url(images/AWAY22MNSHIRT-2.jpg);
+    height:350px;
+    width: 350px;
+}
+
+#born-GK:hover {
+    content: url(images/GK22MNSHIRTYE-2.jpg);
+    height:350px;
+    width: 350px;
+}
+
+#born-third:hover {
+    content: url(images/THRD22LDSHIRT-2.jpg);
+    height:350px;
+    width: 350px;
+}
+
+#born-train:hover {
+    content: url(images/TR22ADUDRTRD-2.jpg);
+    height:350px;
+    width: 350px;
+}
+
+#burn-home:hover {
+    content: url(images/263418_Gallery_2_1239626.jpg);
+    height:350px;
+    width: 350px;
+}
+
+#burn-away:hover {
+    content: url(images/263419_Gallery_2_1280280.jpg);
+    height:350px;
+    width: 350px;
+}
+
+#chelsea-home:hover {
+    content: url(images/chelsea-home-stadium-shirt-2022-23-kids_ss4_p-13303306+pv-2+u-l3n60h56deh02jcovrf6+v-dc1dc74f5a134f50b33b15092dbc0b9d.jpg.avif);
+    height:350px;
+    width: 350px;
+}
+
+#chelsea-away:hover {
+    content: url(images/chelsea-away-stadium-shirt-2022-23_ss4_p-13309201+pv-2+u-vbfbtvrucqngzr1edbjc+v-751fb9205c524ce881047d0fb79fe047.jpg.webp);
+    height:350px;
+    width: 350px;
+}
+
+#chelsea-third:hover {
+    content: url(images/chelsea-third-stadium-shirt-2022-23-kids_ss4_p-13309268+pv-2+u-ggzz0dn9bxn46nfspie7+v-453594ff20454a169fc26d5d9eeba861.jpg.webp);
+    height:350px;
+    width: 350px;
+}
+
+#chelsea-jacket:hover {
+    content: url(images/white-mens_ss4_p-13361741+pv-2+u-rdz7pufr0bvy7b71xzqi+v-6de0b230d4694240819ac3d83392510e.jpg.avif);
+    height:350px;
+    width: 350px;
+}
+
+#chelsea-pre:hover {
+    content: url(images/chelsea-pre-match-top-blue_ss4_p-13303272+pv-2+u-14a53iosqdy1cjfp3p20+v-942a84b7568f4894831aa651741ac47b.jpg.webp);
+    height:350px;
+    width: 350px;
+}
+#chelsea-hoodie:hover {
+    content: url(images/chelsea-travel-hoodie-navy_ss4_p-13309197+pv-2+u-10g5lh9e8d15p9npyff0+v-ea64add823954c0cb4bcd8628a2f1bfa.jpg.webp);
+    height:350px;
+    width: 350px;
+}
+
+#chelsea-1998:hover {
+    content: url(images/chelsea-1998-away-shirt_ss4_p-12004054+pv-2+u-frivr8dkuyju8edw61ke+v-7b9cbe87b39448659c20d1b18ada4b14.jpg.webp);
+    height:350px;
+    width: 350px;
+}
+
+#palace-1997:hover {
+    content: url(images/crystal-palace-1997-retro-shirt_ss4_p-13335535+pv-2+u-dx7y29ni9g7cxoc0xgms+v-e562023f8708404e97e0d3251ec93102.jpg.avif);
+    height:350px;
+    width: 350px;
+}
+
+#everton-home:hover {
+    content: url(images/everton-home-shirt-2022-23_ss4_p-13308765+pv-2+u-15p7dw9oto5tsw33pyfe+v-426c9c0ecced4e50b73463354e959a05.jpg.webp);
+    height:350px;
+    width: 350px;
+}
+
+#everton-away:hover {
+    content: url(images/everton-away-shirt-2022-23_ss4_p-13308800+pv-2+u-1gjq4hen7v6eh0psz7dc+v-7c977f8275d540aea49ba901bd7dc11e.jpg.webp);
+    height:350px;
+    width: 350px;
+}
+
+#everton-third:hover {
+    content: url(images/everton-third-shirt-2022-23-womens_ss4_p-13308778+pv-2+u-90zw89wi0jd6fr91rurr+v-46c308e87a684efab4e120dbdc4c1a29.jpg.avif);
+    height:350px;
+    width: 350px;
+}
+
+#everton-hoodie:hover {
+    content: url(images/everton-training-hoodie-purple_ss4_p-13309366+pv-2+u-k7timxu2uim61n86quq7+v-64cca67df231470fa968028114e85690.jpg.avif);
+    height:350px;
+    width: 350px;
+}
+
+#everton-jacket:hover {
+    content: url(images/everton-training-track-jacket-green_ss4_p-13309437+pv-2+u-10luzezmzn6ci41ehyaw+v-65bb99370e2e4a34863fb7591c5921f0.jpg.avif);
+    height:350px;
+    width: 350px;
+}
+
+#everton-polo:hover {
+    content: url(images/everton-travel-cotton-polo-black_ss4_p-11989282+pv-1+u-1fns7pd3t39qnclk8fd2+v-d16f3b39e30a498c82d7dc7a505c541e.jpg.avif);
+    height:350px;
+    width: 350px;
+}
+
+#everton-pre:hover {
+    content: url(images/everton-away-pre-match-jersey-kids_ss4_p-13308783+pv-2+u-10gruhvtkzrwypxmbxm3+v-e5bd050950ee41baaa9f74eb3450738e.jpg.avif);
+    height:350px;
+    width: 350px;
+}
+
+#fulham-home:hover {
+    content: url(images/37710801_l_a10.jpg);
+    height:350px;
+    width: 350px;
+}
+
+#liverpool-home:hover {
+    content: url(images/liverpool-nike-home-stadium-shirt-2023-24_ss4_p-13372226+pv-2+u-lx72hiq44wzdim42vldc+v-456ff4ddc2e84f8497a427881e917ead.jpg.avif);
+    height:350px;
+    width: 350px;
+}
+
+#liverpool-away:hover {
+    content: url(images/liverpool-away-stadium-shirt-2022-23_ss4_p-13313807+pv-2+u-1gu0qdppf2budl96mlbm+v-0702d331db4f44af969629e8b66bbda7.jpg.webp);
+    height:350px;
+    width: 350px;
+}
+
+#liverpool-third:hover {
+    content: url(images/liverpool-third-stadium-shirt-2022-23_ss4_p-13304621+pv-2+u-111vpiyq3xdc28w3bgz5+v-c7d3b989d54e46ef9d10c824854ab22c.jpg.webp);
+    height:350px;
+    width: 350px;
+}
+
+#liverpool-jacket:hover {
+    content: url(images/liverpool-anthem-jacket-teal-mens_ss4_p-13329699+pv-2+u-sl3di8ml6k2g9j8rl0tw+v-f4f708b6bffe470590e55e3768726155.jpg.avif);
+    height:350px;
+    width: 350px;
+}
+
+#liverpool-pre:hover {
+    content: url(images/liverpool-pre-match-top-grey_ss4_p-13359486+pv-2+u-9vw4p3j744au9lcpne5d+v-dda3bef825dc4ad9ba515a8ca0ac2fcc.jpg.avif);
+    height:350px;
+    width: 350px;
+}
+
+#liverpool-hoodie:hover {
+    content: url(images/liverpool-travel-hoodie-teal-mens_ss4_p-13329700+pv-2+u-inz4gqxu1hsm8b4885k6+v-f7d78a21d6f449e9ac9b6a5a64870316.jpg.avif);
+    height:350px;
+    width: 350px;
+}
+
+#city-home:hover {
+    content: url(images/manchester-city-puma-home-shirt-2023-24_ss4_p-13384426+pv-2+u-1iwxsmq2jtew2rwuanvh+v-8a0c471305874c5f8a0e29b5fde35c79.jpg.avif);
+    height:350px;
+    width: 350px;
+}
+
+#city-away:hover {
+    content: url(images/manchester-city-away-shirt-2022-23_ss4_p-12099566+pv-2+u-xgjm3corsmi93jxq7jdp+v-fbf6ed7c69424541821c24199be700c7.jpg);
+    height:350px;
+    width: 350px;
+}
+
+#city-third:hover {
+    content: url(images/manchester-city-third-shirt-2022-23-womens_ss4_p-12099563+pv-2+u-1cqa8scy2wdjqfw78nhs+v-3be9ec28923d4568ad548d6346d1716e.jpg.avif);
+    height:350px;
+    width: 350px;
+}
+
+#city-GK:hover {
+    content: url(images/manchester-city-puma-goalkeeper-shirt-2023-24_ss4_p-13384456+pv-2+u-12u9wocypgsx6uqgjrf5+v-b6ae7c6d6d3e48ef9ef22501d44d3d25.jpg.avif);
+    height:350px;
+    width: 350px;
+}
+
+#city-pre:hover {
+    content: url(images/manchester-city-pre-match-top-black_ss4_p-12099604+pv-2+u-hug0tlhybesj9hz9znaj+v-ef7174fa35ad4c60abd0f7a0471b3f0f.jpg.avif);
+    height:350px;
+    width: 350px;
+}
+
+#city-hoodie:hover {
+    content: url(images/manchester-city-ftblstatement-hoodie-grey_ss4_p-12099765+pv-2+u-s882v3p2kq7z0usgclh7+v-5ba80b4267c64632bc628c80edfd1b22.jpg.avif);
+    height:350px;
+    width: 350px;
+}
+
+#city-1989:hover {
+    content: url(images/manchester-city-1989-shirt_ss4_p-11873075+pv-1+u-pp7sk9740ijnz35icln2+v-23f4f35e284742818e1f5c2a2ec2d9f0.jpg.webp);
+    height:350px;
+    width: 350px;
+}
+
+#united-home:hover {
+    content: url(images/manchester-united-home-shirt-2022-23_ss4_p-13307715+pv-2+u-5muuro76i0kukjj2r392+v-9b08cdca179f4aaab0d64ca20b439190.jpg);
+    height:350px;
+    width: 350px;
+}
+
+#united-away:hover {
+    content: url(images/manchester-united-away-shirt-2022-23_ss4_p-13307691+pv-2+u-183syu0k8suiiicaf1xe+v-8bacb3a1f47e4168a0991e5d7a613f59.jpg.webp);
+    height:350px;
+    width: 350px;
+}
+
+#united-third:hover {
+    content: url(images/manchester-united-third-shirt-2022-23_ss4_p-13313262+pv-2+u-8nhsa3vcjk95kdq67480+v-db182e32db594c868f3eb7288dc9952b.jpg.webp);
+    height:350px;
+    width: 350px;
+}
+
+#united-GK:hover {
+    content: url(images/manchester-united-home-goalkeeper-shirt-2022-23-kids-long-sleeve_ss4_p-13307733+pv-2+u-15wzpbgzlvhw1e3gu51m+v-0157da6ae8a840f6a183465eee187192.jpg.webp);
+    height:350px;
+    width: 350px;
+}
+
+#united-pre:hover {
+    content: url(images/manchester-united-adidas-training-t-shirt-white_ss4_p-13385066+pv-2+u-l8bg9ekrrxwcroh1nkgn+v-ff953ad3b55e4157bffa4130a17688de.jpg.avif);
+    height:350px;
+    width: 350px;
+}
+
+#united-hoodie:hover {
+    content: url(images/manchester-united-training-hoodie-black-kids_ss4_p-13355015+pv-2+u-17w2rpg6kdym1fxnp2gd+v-433ef437057b4403a7a367c9710f326c.jpg.webp);
+    height:350px;
+    width: 350px;
+}
+
+#united-1988:hover {
+    content: url(images/manchester-united-x-adidas-originals-88-90-jersey-blue_ss4_p-13354926+pv-2+u-kq4z2tbesjlmq1gynbc7+v-05cc1ac8b4af414f920542b9fcab30d9.jpg.avif);
+    height:350px;
+    width: 350px;
+}
+
+#castle-home:hover {
+    content: url(images/newcastle-united-home-pro-shirt-2022-23_ss4_p-13333789+pv-2+u-hjlwdfelg773xwue15kr+v-1a3f8bb190a7481f9f044b51367b26cf.jpg.webp);
+    height:350px;
+    width: 350px;
+}
+
+#castle-away:hover {
+    content: url(images/newcastle-united-away-shirt-2022-23-kids_ss4_p-13337476+pv-2+u-1h0yi72tucmqhfnkzh2f+v-a0f2ac7822db4933b47510c3ed754f67.jpg.avif);
+    height:350px;
+    width: 350px;
+}
+
+#castle-third:hover {
+    content: url(images/newcastle-united-alternate-shirt-2022-23_ss4_p-13337477+pv-2+u-vrtanlxi0zen042sy6ub+v-e49180e7cde34a07abd60cb7a7995dc6.jpg.webp);
+    height:350px;
+    width: 350px;
+}
+
+#castle-GK:hover {
+    content: url(images/newcastle-united-home-goalkeeper-shirt-2022-23_ss4_p-13333799+pv-2+u-kknl477hx1sja30k64j3+v-293ec3ec744d4bdfa206363a9c6251ee.jpg.avif);
+    height:350px;
+    width: 350px;
+}
+
+#castle-pre:hover {
+    content: url(images/newcastle-united-staff-travel-t-shirt-sky-blue_ss4_p-13333800+pv-2+u-16x7e2d7je6s0uccrmls+v-ed1706b57e4743838805c83090baaad8.jpg.avif);
+    height:350px;
+    width: 350px;
+}
+
+#castle-1984:hover {
+    content: url(images/newcastle-united-1984-shirt_ss4_p-11804833+pv-1+u-39ovppmskyrpcg0csemz+v-308575db2bed4c56b30424cc9be776bf.jpg.avif);
+    height:350px;
+    width: 350px;
+}
+
+#forest-home:hover {
+    content: url(images/nffc-adult-home-shirt-22-23-nottingham-forest-fc-817261_700x.jpg.webp);
+    height:350px;
+    width: 350px;
+}
+
+#forest-away:hover {
+    content: url(images/nffc-adult-away-shirt-22-23-nottingham-forest-fc-228833_700x.jpg.webp);
+    height:350px;
+    width: 350px;
+}
+
+#forest-third:hover {
+    content: url(images/nffc-adult-third-shirt-22-23-nottingham-forest-fc-480508_700x.jpg.webp);
+    height:350px;
+    width: 350px;
+}
+
+#forest-GK:hover {
+    content: url(images/nffc-junior-sky-goalkeeper-shirt-22-23-nottingham-forest-fc-955899_700x.jpg.webp);
+    height:350px;
+    width: 350px;
+}
+
+#spurs-away:hover {
+    content: url(images/tottenham-hotspur-away-vapor-match-shirt-2022-23_ss4_p-13313789+pv-2+u-munxzimcu1pgx25l4c0t+v-b910462ff41e458ba14acd9818cbf3af.jpg.avif);
+    height:350px;
+    width: 350px;
+}
+
+#spurs-third:hover {
+    content: url(images/tottenham-hotspur-third-stadium-shirt-2022-23_ss4_p-13304764+pv-2+u-k3j2r9guncind2sukdqf+v-bf29b2fa855e4e1289af7f88bb84da0b.jpg.avif);
+    height:350px;
+    width: 350px;
+}
+
+#spurs-GK:hover {
+    content: url(images/tottenham-hotspur-goalkeeper-stadium-shirt-2022-23_ss4_p-13304373+pv-2+u-ged9bkvs0ftdhamdkze7+v-e68b649c73fd49c48bcb056fafc14a40.jpg.avif);
+    height:350px;
+    width: 350px;
+}
+
+#spurs-jacket:hover {
+    content: url(images/tottenham-hotspur-awf-jacket-blue-womens_ss4_p-13304747+pv-3+u-757sjb2rjjgzkrbv09sw+v-86267145108b4481b757810ffa738b57.jpg.avif);
+    height:350px;
+    width: 350px;
+}
+
+#spurs-pre:hover {
+    content: url(images/tottenham-hotspur-strike-ss-top-yellow_ss4_p-13304368+pv-1+u-160hr5umbzcqpi0cayjc+v-95631e5165ff44ffac9998f875146541.jpg.avif);
+    height:350px;
+    width: 350px;
+}
+
+#hammers-1966:hover {
+    content: url(images/west-ham-united-1966-no6-shirt_ss4_p-12032588+pv-2+u-yaalolqg1ispaegob4ik+v-26b5122582a048c596293ecefa8381b0.jpg.avif);
+    height:350px;
+    width: 350px;
+}
+
+#wolves-home:hover {
+    content: url(images/wolverhampton-wanderers-home-pro-shirt-2022-23_ss4_p-13333928+pv-2+u-s8s3epar1d72jdvs8z42+v-5035639d37c2436ebb367d81f8ca5440.jpg.webp);
+    height:350px;
+    width: 350px;
+}
+
+#wolves-away:hover {
+    content: url(images/wolverhampton-wanderers-away-pro-shirt-2022-23_ss4_p-13333911+pv-2+u-ldchzfuuyk3gje8sbj85+v-d675ca95dfcc4b41bab7756d832df497.jpg.avif);
+    height:350px;
+    width: 350px;
+}
+
+#wolves-1993:hover {
+    content: url(images/wolverhampton-wanderers-1993-home-shirt_ss4_p-13374748+pv-2+u-1b8mym99jop27br9rijt+v-fee84c6ea3d04a84b29f190e41b617c2.jpg.avif);
+    height:350px;
+    width: 350px;
+}
+
+.shop-item-image {
+    height: 350px;
+    width: 350px;
+    border-radius: 22px;
+    border-top: 11px  solid #0a0707e8;
+    border-bottom: 11px solid #2D9CDB;
+}
+
+.shop-item-details {
+    align-items: center;
+    text-align: center;
+}
+
+.shop-item-price {
+    flex-grow: 1;
+    color: #333;
+    background-color: #0c6aee18;
+    border-radius: 22px;
+}
+
+.shop-items {
+    display: inline-block;
+    justify-content: space-around;
+}
+
+@import "https://unpkg.com/open-props";
+@import "https://unpkg.com/open-props/normalize.min.css";
+
+h6 {
+    font-size: 18px;
+    text-align: center;
+}
+
+.container-flow {
+    margin-bottom: 22px;
+}
+
+.media-scroller {
+  --_spacer: var(--size-3);
+    display: grid;
+    gap: var(--_spacer);
+    grid-auto-flow: column;
+    grid-auto-columns: 21%;
+    width: 100%;
+    padding: 0 var(--_spacer) var(--_spacer);
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+}
+
+.media-scroller--with-groups {
+    grid-auto-columns: 80%;
+}
+
+.media-group {
+    display: grid;
+    gap: var(--_spacer);
+    grid-auto-flow: column;
+}
+
+.media-element {
+    display: grid;
+    grid-template-rows: min-content;
+    gap: var(--_spacer);
+    padding: var(--_spacer);
+    background: var(--surface-2);
+    border-radius: var(--radius-2);
+    box-shadow: var(--shadow-2);
+}
+
+.media-element > img {
+    border-radius: 22px;
+    inline-size: 100%;
+    padding: 8px;
+    aspect-ratio: 20 / 20;
+    object-fit: cover;
+}
+
+.snaps-inline {
+    scroll-snap-type: inline mandatory;
+    scroll-padding-inline: var(--_spacer, 1rem);
+}
+
+.snaps-inline > * {
+    scroll-snap-align: start;
+}
+
+.container {
+    inline-size: min(100% - 4rem, 70rem);
+    margin-inline: auto;
+}
+
+.flow {
+    display: grid;
+    gap: var(--size-3);
+}
+
+.page-header {
+    padding-block: var(--size-9);
+    margin-block-end: var(--size-9);
+    background: var(--gradient-16);
+    color: var(--gray-0);
+    box-shadow: var(--shadow-2);
+}
+
+.container  {
+    margin-right: 53px;
+}
+
+.cart-header {
+    font-weight: bold;
+    font-size: 1.25em;
+    color: #0a0909;
+}
+
+.cart-column {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(13, 12, 12);
+    padding-left: 12px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cart-row {
+    display: flex; 
+}
+
+.cart-item {
+    width: 65%;
+}
+
+.cart-price {
+    width: 40%;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.cart-quantity {
+    width: 35%;
+}
+
+.cart-item-title {
+    color: #131212;
+    margin-left: .5em;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.cart-price {
+    padding-left: 22px;
+}
+
+.cart-item-image {
+    width: 45px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.btn-danger {
+    color: rgb(255, 255, 255);
+    background-color: #EB5757;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-danger:hover {
+    background-color: #CC4C4C;
+}
+
+.cart-quantity-input {
+    height: 34px;
+    width: 33px;
+    border-radius: 5px;
+    border: 1px solid #56CCF2;
+    background-color: #eee;
+    color: #333;
+    padding: 0;
+    text-align: center;
+    font-size: 1.2em;
+    margin-right: 5px;
+    margin-left: 22px;
+}
+
+.cart-row:last-child {
+    border-bottom: 1px solid black;
+}
+
+.cart-row:last-child .cart-column {
+    border: none;
+}
+
+.cart-total {
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.cart-total-title {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: black;
+    margin-right: 20px;
+}
+
+.cart-total-price {
+    color: #333;
+    font-size: 1.1em;
+}
+
+.btn-purchase {
+    display: block;
+    margin: 40px auto 80px auto;
+    font-size: 1.75em;
+}
